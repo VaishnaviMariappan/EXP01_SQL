@@ -14,7 +14,7 @@ To fetch first name from sample work table using alias naming in SQL.
 
 5. We can use its syntax ,SELECT Alias_name AS Alias_variable_name for fetching the column.The results will be displayed accordingly.
 ## PROGRAM:
-
+```sql
 create table Employee(
   First_name varchar(50),
   Last_name varchar(50),
@@ -42,10 +42,9 @@ insert into Employee (First_name, Last_name,Age)
 values ('Atalie','Williams',25);
 
 select First_name as fn from Employee;
-
+```
 
 ## OUTPUT:
-![image](https://github.com/gpavithra673/Exp-1-SQL-query-to-fetch-FIRST_NAME-from-the-worker-table-using-the-alias/assets/93427264/301496f0-271f-409c-8230-4ca120b34abe)
-
+![image](https://github.com/VaishnaviMariappan/EXP01_SQL/assets/94169913/97bc4280-96b0-4660-ab85-bb943cc21a03)
 ## RESULT:
 ### Thus we have obtained the required column using alias.
