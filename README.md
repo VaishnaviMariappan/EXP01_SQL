@@ -21,25 +21,24 @@ create table Employee(
   Age int
 );
 insert into Employee (First_name, Last_name,Age)
-values ('Wade','Smith',25);
+values ('Harry','Potter',21);
 insert into Employee (First_name, Last_name,Age)
-values ('Dave','Johnson',27);
+values ('Ron','Weasley',21);
 insert into Employee (First_name, Last_name,Age)
-values ('Williams','Brown',28);
+values ('Hermione','Granger',21);
 insert into Employee (First_name, Last_name,Age)
-values ('Walker','Jones',24);
+values ('Draco','Malfoy',21);
 insert into Employee (First_name, Last_name,Age)
-values ('Scott','Garcia',30);
+values ('Sirius','Black',40);
 insert into Employee (First_name, Last_name,Age)
-values ('Alberta','Miller',35);
+values ('Severus','Snape',40);
 insert into Employee (First_name, Last_name,Age)
-values ('Lynda','Rodriguez',32);
+values ('Rubeus', 'Hagrid ',38);
 insert into Employee (First_name, Last_name,Age)
-values ('Sandra','Martinez',29);
+values ('Neville', 'Longbottom ',22);
 insert into Employee (First_name, Last_name,Age)
-values ('Rosie','Davis',24);
-insert into Employee (First_name, Last_name,Age)
-values ('Atalie','Williams',25);
+values ('Luna', 'Lovegood' ,22);
+
 
 select First_name as fn from Employee;
 ```
